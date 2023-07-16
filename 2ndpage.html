@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>My first assignment</title>
+</head>
+<body>
+<h1><p><b><u>Welcome to Booking Area</u></b></p></h1><br>
+
+<form>
+	<feildset>
+	<h3><legend><u>Your Info</u></h3></legend>
+	Full Name:<input type="text"><br>
+	Address:<input type="text"><br>
+	Email Address:<input type="text"><br>
+	</fieldset>
+</form>
+</hr>
+<form action="action_page.php">
+	<p>Enter your Contact Number</p>
+	<input type="text" Contact="num" placeholder="+94700000000"><br>
+	<p>Enter your NIC Number</P>
+	<input type="text" NIC="2num" placeholder="200000000000v"><br>
+<h3><u>Other Info</u></h3>
+<p>Select your Hotel</p>
+<tr>
+	<td> <select name="Hotel">
+		<option> Cinnamon Red Colombo</option>
+	<option> Marino Beach Colombo</option>
+	<option> Shangri-La Colombo</option>
+	<option> Jetwing Jaffna</option>
+	<option> Hotel Grand Turf</option>
+	</select>
+	</td>
+</tr>
+	<p>Select your Hotel Package</p>
+<tr>
+	<td> <select name="Hotel Package">
+	<option> Fullboard</option>
+	<option> Breakfast only</option>
+	<option> Breakfasst and Dinner</option>
+	<option> One Night stay</option>
+	</select>
+	</td>
+</tr>
+<br>
+<br>
+<form> Check-in date   :-
+<input type="date" name"chech-in date">
+Check-out date:-
+<input type="date"></form>
+</hr><br>
+<form action ="action_page.php">
+	How many rooms you need?(between 1 and 10):
+	<input type="number" name="HoW many rooms you need" min="1" max="10">
+	<input type="submit">
+</form>
+</hr>
+<form action ="action_page.php">
+	Adults(Max-30):
+	<input type="number" name="alults count" min="1" max="30">
+	Children(Max-15):
+	<input type="number" name="Children count" min="1" max="15">
+	<input type="submit">
+</form>
+</hr>
+<form action ="action_page.php">
+        <h2><center><input type="submit"></h2></center>
+</body>
+</html>
